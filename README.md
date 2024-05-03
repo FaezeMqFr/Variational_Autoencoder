@@ -1,2 +1,2 @@
-# Variational_Autoencoder
-This repository contains an implementation of a Variational Autoencoder (VAE).
+What is this repository for?
+This repository contains Jupyter Notebooks demonstrating the training and application of Variational Autoencoders (VAE) on two popular datasets: MNIST and CIFAR-10. VAEs are advanced generative models capable of learning data distributions and generating new data instances. This project explores generating new images of handwritten digits (MNIST) and small color images of various objects (CIFAR-10), along with delving into the latent space representations.
