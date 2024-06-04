@@ -1,12 +1,65 @@
-## What is this repository for?
+# Variational Autoencoder (VAE) Implementation from Scratch
 
-This repository contains Jupyter Notebooks demonstrating the training and application of Variational Autoencoders (VAE) on two popular datasets: MNIST and CIFAR-10. VAEs are advanced generative models capable of learning data distributions and generating new data instances. This project explores generating new images of handwritten digits (MNIST) and small color images of various objects (CIFAR-10), along with delving into the latent space representations.
+Welcome to the Variational Autoencoder (VAE) implementation repository! This project demonstrates how to build a VAE from scratch using the MNIST dataset.
 
-For detailed explanations of the VAE concepts and additional guidance, refer to the blog post on this topic here.
+## Table of Contents
 
-## Who do I talk to?
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-This project is designed for:
-  -Educators: Demonstrating generative model principles.
-  -Students: Learning about deep learning and generative models.
-  -Researchers: Using this implementation as a base for further experimentation.
+## Introduction
+
+Variational Autoencoders (VAEs) are a type of generative model that learn to encode data into a latent space and decode it back to the original space. They are widely used in various applications, including image generation, anomaly detection, and data compression. This repository provides a step-by-step implementation of a VAE using Python and popular deep learning libraries.
+
+For more study and understanding, you can visit [this link](https://faezehmfr.wixsite.com/curiousseekers/post/implementation-of-a-variational-autoencoder-vae-from-scratch-on-mnist-dataset).
+
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python 3.7 or later
+- `numpy`
+- `torch`
+- `torchvision`
+- `matplotlib`
+- `jupyter`
+
+You can install the necessary packages using `pip`:
+
+```bash
+pip install numpy torch torchvision matplotlib jupyter
+```
+
+## Project Structure
+
+```plaintext
+Variational_Autoencoder/
+│
+├── data/
+│   └── mnist/
+│       └── [MNIST Dataset Files]
+├── models/
+│   └── vae.py
+├── utils/
+│   └── data_loader.py
+├── VAE_MNIST.ipynb
+├── train.py
+├── README.md
+└── requirements.txt
+```
+
+- data/: Contains the MNIST dataset.
+- models/: Contains the model definition for the VAE.
+- utils/: Contains utility functions, including the data loader.
+- VAE_MNIST.ipynb: Jupyter notebook for training and visualizing the VAE.
+- train.py: Script for training the VAE.
+- README.md: Project README file.
+- requirements.txt: List of required packages.
