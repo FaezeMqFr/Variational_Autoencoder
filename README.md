@@ -63,3 +63,6 @@ Variational_Autoencoder/
 - train.py: Script for training the VAE.
 - README.md: Project README file.
 - requirements.txt: List of required packages.
+
+  ![image](https://github.com/FaezeMqFr/Variational_Autoencoder/assets/145299921/817f1666-43da-4452-b4a1-bfc8ea0ebf99)
+
