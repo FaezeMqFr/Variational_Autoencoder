@@ -6,8 +6,6 @@ Welcome to the Variational Autoencoder (VAE) implementation repository! This pro
 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 
 
