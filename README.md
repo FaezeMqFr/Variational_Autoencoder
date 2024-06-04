@@ -43,17 +43,8 @@ pip install numpy torch torchvision matplotlib jupyter
 ```plaintext
 Variational_Autoencoder/
 │
-├── data/
-│   └── mnist/
-│       └── [MNIST Dataset Files]
-├── models/
-│   └── vae.py
-├── utils/
-│   └── data_loader.py
 ├── VAE_MNIST.ipynb
-├── train.py
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 - data/: Contains the MNIST dataset.
@@ -64,5 +55,9 @@ Variational_Autoencoder/
 - README.md: Project README file.
 - requirements.txt: List of required packages.
 
-  ![image](https://github.com/FaezeMqFr/Variational_Autoencoder/assets/145299921/817f1666-43da-4452-b4a1-bfc8ea0ebf99)
+ 
+
+<p align="center">
+  <img src="https://github.com/FaezeMqFr/Variational_Autoencoder/assets/145299921/c06fde5c-de68-4bef-8da0-c222749536e3" alt="Logo" width="200"/>
+</p>
 
