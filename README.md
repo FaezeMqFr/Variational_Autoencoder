@@ -1,6 +1,7 @@
 # Variational Autoencoder (VAE) Implementation from Scratch
 
 Welcome to the Variational Autoencoder (VAE) implementation repository!
+
 This repository contains the implementation of a Variational Autoencoder (VAE) from scratch using the MNIST and CIFAR-10 datasets. The VAE is a generative model that learns to encode data into a latent space and then decode it back to the original data space. This implementation focuses on understanding the core concepts and building blocks of VAEs without relying on high-level libraries.
 
 ## Table of Contents
