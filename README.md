@@ -8,6 +8,8 @@ This repository contains the implementation of a Variational Autoencoder (VAE) f
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
+- [References](#references)
+- [Author](#author)
 
 
 ## Introduction
