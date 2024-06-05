@@ -41,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Author
 
-This project is implemented by Faezeh. For more information and updates, visit [Curious Seekers Hub](https://rojanblog.com).
+This project is implemented by Faezeh. For more information and updates, visit [Curious Seekers Hub](https://faezehmfr.wixsite.com/curiousseekers).
  
 
 <p align="center">
