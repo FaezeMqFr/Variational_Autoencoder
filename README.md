@@ -29,12 +29,9 @@ Before you begin, ensure you have met the following requirements:
 - Matplotlib
 
 ## Project Structure
-
 - `vae_mnist.ipynb`: Jupyter notebook for training the VAE model on the MNIST dataset.
 - `vae_cifar10.ipynb`: Jupyter notebook for training the VAE model on the CIFAR-10 dataset.
-- `vae.py`: Contains the VAE model architecture and related functions.
-- `utils.py`: Utility functions for data loading, preprocessing, and visualization.
-- `outputs/`: Directory to save trained models and generated samples.
+
 
 ## References
 
@@ -43,7 +40,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Author
 
-This project is implemented by Rojan. For more information and updates, visit [Curious Seekers Hub](https://rojanblog.com).
+This project is implemented by Faezeh. For more information and updates, visit [Curious Seekers Hub](https://rojanblog.com).
  
 
 <p align="center">
