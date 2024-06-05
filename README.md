@@ -1,6 +1,7 @@
 # Variational Autoencoder (VAE) Implementation from Scratch
 
-Welcome to the Variational Autoencoder (VAE) implementation repository! This project demonstrates how to build a VAE from scratch using the MNIST dataset.
+Welcome to the Variational Autoencoder (VAE) implementation repository!
+This repository contains the implementation of a Variational Autoencoder (VAE) from scratch using the MNIST and CIFAR-10 datasets. The VAE is a generative model that learns to encode data into a latent space and then decode it back to the original data space. This implementation focuses on understanding the core concepts and building blocks of VAEs without relying on high-level libraries.
 
 ## Table of Contents
 
@@ -20,36 +21,27 @@ For more study and understanding, you can visit [this link](https://faezehmfr.wi
 
 Before you begin, ensure you have met the following requirements:
 
-- Python 3.7 or later
-- `numpy`
-- `torch`
-- `torchvision`
-- `matplotlib`
-- `jupyter`
-
-You can install the necessary packages using `pip`:
-
-```bash
-pip install numpy torch torchvision matplotlib jupyter
-```
+- Python 3.9 or later
+- NumPy
+- TensorFlow 2.x
+- Matplotlib
 
 ## Project Structure
 
-```plaintext
-Variational_Autoencoder/
-│
-├── VAE_MNIST.ipynb
-└── README.md
-```
+- `vae_mnist.ipynb`: Jupyter notebook for training the VAE model on the MNIST dataset.
+- `vae_cifar10.ipynb`: Jupyter notebook for training the VAE model on the CIFAR-10 dataset.
+- `vae.py`: Contains the VAE model architecture and related functions.
+- `utils.py`: Utility functions for data loading, preprocessing, and visualization.
+- `outputs/`: Directory to save trained models and generated samples.
 
-- data/: Contains the MNIST dataset.
-- models/: Contains the model definition for the VAE.
-- utils/: Contains utility functions, including the data loader.
-- VAE_MNIST.ipynb: Jupyter notebook for training and visualizing the VAE.
-- train.py: Script for training the VAE.
-- README.md: Project README file.
-- requirements.txt: List of required packages.
+## References
 
+- Kingma, D. P., & Welling, M. (2013). Auto-Encoding Variational Bayes. arXiv preprint arXiv:1312.6114.
+- Doersch, C. (2016). Tutorial on Variational Autoencoders. arXiv preprint arXiv:1606.05908.
+
+## Author
+
+This project is implemented by Rojan. For more information and updates, visit [Curious Seekers Hub](https://rojanblog.com).
  
 
 <p align="center">
